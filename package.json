@@ -1,11 +1,11 @@
 {
-    "name": "new-route",
-    "version": "0.0.7",
-    "description": "new-route is a svelte-kit, route creator cli for personal use, work in progress",
+    "name": "simple-sum-cli",
+    "version": "0.0.8",
+    "description": "simple-sum-cli is a svelte-kit, route creator cli for personal use, work in progress",
     "type": "module",
     "exports": "./dist/index.js",
     "bin": {
-        "new-route": "./dist/index.js"
+        "simple-sum-cli": "./dist/index.js"
     },
     "files": [
         "dist",
@@ -22,7 +22,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/q1b/new-route.git"
+        "url": "git+https://github.com/q1b/simple-sum-cli.git"
     },
     "keywords": [
         "svelte",
@@ -31,9 +31,9 @@
     "author": "q1b",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/q1b/new-route/issues"
+        "url": "https://github.com/q1b/simple-sum-cli/issues"
     },
-    "homepage": "https://github.com/q1b/new-route#readme",
+    "homepage": "https://github.com/q1b/simple-sum-cli#readme",
     "devDependencies": {
         "@changesets/changelog-github": "^0.5.0",
         "@changesets/cli": "^2.27.7",
