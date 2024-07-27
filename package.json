@@ -10,7 +10,8 @@
     "scripts": {
         "build": "tsup",
         "dev": "tsup ./src/* --watch ",
-        "format": "prettier --write ."
+        "format": "prettier --write .",
+        "release": "changeset publish"
     },
     "repository": {
         "type": "git",
@@ -27,6 +28,7 @@
     },
     "homepage": "https://github.com/q1b/new-route#readme",
     "devDependencies": {
+        "@changesets/cli": "^2.27.7",
         "@types/node": "^20.14.12",
         "prettier": "3.3.3",
         "tsup": "^8.2.3",
