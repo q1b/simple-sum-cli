@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/q1b/new-route#readme",
   "devDependencies": {
-    "tsup": "^8.2.3"
+    "tsup": "^8.2.3",
+    "typescript": "^5.5.4"
   }
 }
