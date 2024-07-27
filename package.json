@@ -11,12 +11,16 @@
     "url": "git+https://github.com/q1b/new-route.git"
   },
   "keywords": [
-    "svelte"
+    "svelte",
+    "svelte-kit"
   ],
   "author": "q1b",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/q1b/new-route/issues"
   },
-  "homepage": "https://github.com/q1b/new-route#readme"
+  "homepage": "https://github.com/q1b/new-route#readme",
+  "devDependencies": {
+    "tsup": "^8.2.3"
+  }
 }
