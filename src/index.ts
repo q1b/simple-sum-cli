@@ -1,5 +1,3 @@
-console.log("Hello, World!");
-
 const sum = (...nums: number[]) => {
     return nums.reduce((acc, num) => acc + num, 0);
 };
@@ -7,7 +5,6 @@ const sum = (...nums: number[]) => {
 const main = async () => {
     console.log(sum(1, 2, 3, 4, 5));
 }
-
 
 main().catch((err) => {
     if (err instanceof Error) {
