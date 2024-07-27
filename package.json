@@ -1,33 +1,33 @@
 {
-  "name": "new-route",
-  "version": "0.0.1",
-  "description": "new-route is a svelte-kit, route creator cli for personal use, work in progress",
-  "main": "index.js",
-  "scripts": {
-    "dev": "tsup ./src/* --watch ",
-    "format": "prettier --write ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/q1b/new-route.git"
-  },
-  "keywords": [
-    "svelte",
-    "svelte-kit"
-  ],
-  "author": "q1b",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/q1b/new-route/issues"
-  },
-  "homepage": "https://github.com/q1b/new-route#readme",
-  "devDependencies": {
-    "prettier": "3.3.3",
-    "tsup": "^8.2.3",
-    "typescript": "^5.5.4"
-  },
-  "prettier": {
-    "tabWidth": 2,
-    "useTabs": true
-  }
+    "name": "new-route",
+    "version": "0.0.1",
+    "description": "new-route is a svelte-kit, route creator cli for personal use, work in progress",
+    "main": "index.js",
+    "scripts": {
+        "dev": "tsup ./src/* --watch ",
+        "format": "prettier --write ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/q1b/new-route.git"
+    },
+    "keywords": [
+        "svelte",
+        "svelte-kit"
+    ],
+    "author": "q1b",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/q1b/new-route/issues"
+    },
+    "homepage": "https://github.com/q1b/new-route#readme",
+    "devDependencies": {
+        "prettier": "3.3.3",
+        "tsup": "^8.2.3",
+        "typescript": "^5.5.4"
+    },
+    "prettier": {
+        "tabWidth": 4,
+        "useTabs": false
+    }
 }
