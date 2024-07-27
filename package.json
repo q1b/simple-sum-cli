@@ -4,7 +4,8 @@
   "description": "new-route is a svelte-kit, route creator cli for personal use, work in progress",
   "main": "index.js",
   "scripts": {
-    "dev": "tsup ./src/* --watch "
+    "dev": "tsup ./src/* --watch ",
+    "format": "prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,9 @@
     "prettier": "3.3.3",
     "tsup": "^8.2.3",
     "typescript": "^5.5.4"
+  },
+  "prettier": {
+    "tabWidth": 2,
+    "useTabs": true
   }
 }
