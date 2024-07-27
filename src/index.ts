@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const sum = (...nums: number[]) => {
     return nums.reduce((acc, num) => acc + num, 0);
 };
