@@ -27,6 +27,7 @@
 		"skipLibCheck": true
 	},
 	"include": [
-		"src"
+		"src",
+		"tsup.config.ts"
 	]
 }
