@@ -1,2 +1,7 @@
+
+# DEPENDENCIES
 node_modules
-dist/*
+package-lock.json
+
+# BUILD FILES
+dist/

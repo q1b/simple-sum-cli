@@ -1,12 +1,19 @@
 {
     "name": "new-route",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "new-route is a svelte-kit, route creator cli for personal use, work in progress",
     "type": "module",
     "exports": "./dist/index.js",
     "bin": {
         "new-route": "./dist/index.js"
     },
+    "files": [
+        "dist",
+        "README.md",
+        "LICENSE",
+        "CHANGELOG.md",
+        "package.json"
+    ],
     "scripts": {
         "build": "tsup",
         "dev": "tsup ./src/* --watch ",
